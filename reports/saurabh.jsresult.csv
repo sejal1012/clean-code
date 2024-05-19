@@ -1,0 +1,6 @@
+RuleName,Justification,Score
+1. Use intention-revealing names, The variables x and y and and z do not provide any information about what they represent. To improve this and the variables should be given names that are more meaningful and descriptive. For example and var total = x * y;,2,
+2. Avoid disinformation, The code does not contain any disinformation.,5,
+3. Make meaningful distinctions, The code does not make any meaningful distinctions between the variables. To improve this and the variables should be given names that are more meaningful and descriptive. For example and var total = x * y;,4,
+4. Replace "magic values" with naming constants, The code does not use any constants and instead uses "magic values" such as 10 and 5. To improve this and constants should be used instead of hard-coded values. For example and const TOTAL_AMOUNT = 10;,0,
+5. Use pronounceable names, The variables x and y and and z are not pronounceable. To improve this and the variables should be given names that are more meaningful and descriptive. For example and var total,4,

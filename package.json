@@ -1,0 +1,42 @@
+{
+	"name": "clean-code",
+	"description": "cleans code",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"clean-code": "index.js",
+		"clean": "index.js"
+	},
+	"author": {
+		"name": "viraj",
+		"email": "viraj.patil@coditas.com",
+		"url": "https://www.virajpatil.com"
+	},
+	"keywords": [
+		"clean-code",
+		"viraj"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"axios": "^1.4.0",
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.2",
+		"dotenv": "^16.1.4",
+		"langchain": "^0.0.92",
+		"meow": "^9.0.0",
+		"openai": "^3.2.1"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.8"
+	}
+}

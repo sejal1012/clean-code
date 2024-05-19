@@ -1,0 +1,45 @@
+{
+  "Functions": [
+    "Functions should have a Single Responsibility",
+    "Functions should be short and focused",
+    "Use comments and documentation",
+    "Use consistent formatting",
+    "Functions should avoid side effects",
+    "Use parameters and return values"
+  ],
+
+  "Comments": [
+    "Comment if present should not repeat what is evident in the code",
+    "Should not contain commented out code",
+    "Comment if present should explain the purpose of the code",
+    "Comment if present should be as clear and precise as the code they describe",
+    "Comment if present should be written in complete sentences with proper punctuation, grammar, and spelling"
+  ],
+  "Classes": [
+    "Class should hold only one responsibility.",
+    "Classes should start with variable declarations followed by methods. By convention, static variables should be declared first followed by instance variables.",
+    "The name of a class should clearly represent the responsibility it holds.",
+    "Class name should be noun and written in camel case starting with capital letter.",
+    "Classes should be loosely coupled."
+  ],
+  "ErrorHandling": [
+    "Code should use exceptions rather than throwing error codes.",
+    "Throw meaningful exceptions rather than generic exception types.",
+    "Avoid returning NULL. Instead throw proper exception.",
+    "Catch specific exceptions rather than high level ones like 'Exception', 'RunTimeException', or 'Error'.",
+    "Avoid empty catch blocks.",
+    "Don't throw an exception withing a finally block.",
+    "Use clear and contextual error messages while throwing the exceptions."
+  ],
+  "ObjectDataStructures": [
+    "Encapsulation",
+    "Single Responsibility Principle",
+    "Information Hiding",
+    "Use Appropriate Abstraction",
+    "Avoid Exposing Raw Data",
+    "Favor Composition over Inheritance",
+    "Follow the Law of Demeter",
+    "Minimize Mutable State",
+    "Apply SOLID Principles"
+  ]
+}
